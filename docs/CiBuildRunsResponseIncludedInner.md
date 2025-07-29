@@ -1,0 +1,33 @@
+# CiBuildRunsResponseIncludedInner
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**type** | **str** |  | 
+**id** | **str** |  | 
+**attributes** | [**ScmPullRequestAttributes**](ScmPullRequestAttributes.md) |  | [optional] 
+**relationships** | [**ScmGitReferenceRelationships**](ScmGitReferenceRelationships.md) |  | [optional] 
+**links** | [**ResourceLinks**](ResourceLinks.md) |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.ci_build_runs_response_included_inner import CiBuildRunsResponseIncludedInner
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of CiBuildRunsResponseIncludedInner from a JSON string
+ci_build_runs_response_included_inner_instance = CiBuildRunsResponseIncludedInner.from_json(json)
+# print the JSON string representation of the object
+print(CiBuildRunsResponseIncludedInner.to_json())
+
+# convert the object into a dict
+ci_build_runs_response_included_inner_dict = ci_build_runs_response_included_inner_instance.to_dict()
+# create an instance of CiBuildRunsResponseIncludedInner from a dict
+ci_build_runs_response_included_inner_from_dict = CiBuildRunsResponseIncludedInner.from_dict(ci_build_runs_response_included_inner_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

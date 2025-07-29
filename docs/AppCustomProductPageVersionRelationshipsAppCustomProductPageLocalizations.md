@@ -1,0 +1,31 @@
+# AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**links** | [**RelationshipLinks**](RelationshipLinks.md) |  | [optional] 
+**meta** | [**PagingInformation**](PagingInformation.md) |  | [optional] 
+**data** | [**List[AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizationsDataInner]**](AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizationsDataInner.md) |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.app_custom_product_page_version_relationships_app_custom_product_page_localizations import AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations from a JSON string
+app_custom_product_page_version_relationships_app_custom_product_page_localizations_instance = AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations.from_json(json)
+# print the JSON string representation of the object
+print(AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations.to_json())
+
+# convert the object into a dict
+app_custom_product_page_version_relationships_app_custom_product_page_localizations_dict = app_custom_product_page_version_relationships_app_custom_product_page_localizations_instance.to_dict()
+# create an instance of AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations from a dict
+app_custom_product_page_version_relationships_app_custom_product_page_localizations_from_dict = AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizations.from_dict(app_custom_product_page_version_relationships_app_custom_product_page_localizations_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

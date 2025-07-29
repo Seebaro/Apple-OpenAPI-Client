@@ -1,0 +1,29 @@
+# AppPriceScheduleCreateRequestDataRelationshipsManualPrices
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**data** | [**List[AppPriceScheduleRelationshipsManualPricesDataInner]**](AppPriceScheduleRelationshipsManualPricesDataInner.md) |  | 
+
+## Example
+
+```python
+from openapi_client.models.app_price_schedule_create_request_data_relationships_manual_prices import AppPriceScheduleCreateRequestDataRelationshipsManualPrices
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of AppPriceScheduleCreateRequestDataRelationshipsManualPrices from a JSON string
+app_price_schedule_create_request_data_relationships_manual_prices_instance = AppPriceScheduleCreateRequestDataRelationshipsManualPrices.from_json(json)
+# print the JSON string representation of the object
+print(AppPriceScheduleCreateRequestDataRelationshipsManualPrices.to_json())
+
+# convert the object into a dict
+app_price_schedule_create_request_data_relationships_manual_prices_dict = app_price_schedule_create_request_data_relationships_manual_prices_instance.to_dict()
+# create an instance of AppPriceScheduleCreateRequestDataRelationshipsManualPrices from a dict
+app_price_schedule_create_request_data_relationships_manual_prices_from_dict = AppPriceScheduleCreateRequestDataRelationshipsManualPrices.from_dict(app_price_schedule_create_request_data_relationships_manual_prices_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

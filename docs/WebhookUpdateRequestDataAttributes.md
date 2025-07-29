@@ -1,0 +1,33 @@
+# WebhookUpdateRequestDataAttributes
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**enabled** | **bool** |  | [optional] 
+**event_types** | [**List[WebhookEventType]**](WebhookEventType.md) |  | [optional] 
+**name** | **str** |  | [optional] 
+**secret** | **str** |  | [optional] 
+**url** | **str** |  | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.webhook_update_request_data_attributes import WebhookUpdateRequestDataAttributes
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of WebhookUpdateRequestDataAttributes from a JSON string
+webhook_update_request_data_attributes_instance = WebhookUpdateRequestDataAttributes.from_json(json)
+# print the JSON string representation of the object
+print(WebhookUpdateRequestDataAttributes.to_json())
+
+# convert the object into a dict
+webhook_update_request_data_attributes_dict = webhook_update_request_data_attributes_instance.to_dict()
+# create an instance of WebhookUpdateRequestDataAttributes from a dict
+webhook_update_request_data_attributes_from_dict = WebhookUpdateRequestDataAttributes.from_dict(webhook_update_request_data_attributes_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

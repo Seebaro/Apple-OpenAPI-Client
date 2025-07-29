@@ -1,0 +1,14 @@
+# WebhookEventType
+
+
+## Enum
+
+* `APP_STORE_VERSION_APP_VERSION_STATE_UPDATED` (value: `'APP_STORE_VERSION_APP_VERSION_STATE_UPDATED'`)
+
+* `BETA_FEEDBACK_CRASH_SUBMISSION_CREATED` (value: `'BETA_FEEDBACK_CRASH_SUBMISSION_CREATED'`)
+
+* `BETA_FEEDBACK_SCREENSHOT_SUBMISSION_CREATED` (value: `'BETA_FEEDBACK_SCREENSHOT_SUBMISSION_CREATED'`)
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
